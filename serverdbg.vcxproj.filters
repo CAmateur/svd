@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Asms">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OxygenPdb">
+      <UniqueIdentifier>{fa0eeda2-a8d6-4b0b-8141-8caa2e5bab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Hook">
+      <UniqueIdentifier>{c279931c-6144-4e98-bfc3-80b6a198b8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugSystem">
+      <UniqueIdentifier>{11161a8e-cf52-4f23-a06e-d13dcfdf2705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{42a92acf-1252-4d9e-af01-2d887a78a379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handle">
+      <UniqueIdentifier>{5ab01f60-8822-409c-8a7b-6ac01e9bee7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectProcessAndThread">
+      <UniqueIdentifier>{2bcd7642-1c98-44e1-9f49-52777a903e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MdlMemoryLock">
+      <UniqueIdentifier>{c8bb67c4-1960-4e27-993c-cc6ea6009b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HideWindow">
+      <UniqueIdentifier>{9b7837ad-0a41-4733-84c7-82decb7534ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c1c35aff-625d-4dc8-9dbd-70aa4709e128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EptHook">
+      <UniqueIdentifier>{44472414-3ec9-4d08-969f-0cdc61aa6281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CallBack">
+      <UniqueIdentifier>{c746466f-fbe0-4c3b-9d76-16ec8d241f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysicalMemory">
+      <UniqueIdentifier>{221c6eb1-928b-4f42-8502-0443672b0f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PuppetMemory">
+      <UniqueIdentifier>{c954cac2-a4d9-42aa-b1cd-23521f8fb7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HideDebugSystem">
+      <UniqueIdentifier>{654f37c6-2db6-4394-b688-567dc3554e07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hides.cpp">
+      <Filter>HideDebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MdlLock.cpp">
+      <Filter>MdlMemoryLock</Filter>
+    </ClCompile>
+    <ClCompile Include="UserHook.cpp">
+      <Filter>User Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CallBack.cpp">
+      <Filter>CallBack</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle.cpp">
+      <Filter>Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>ProtectProcessAndThread</Filter>
+    </ClCompile>
+    <ClCompile Include="Hide.cpp">
+      <Filter>HideWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EptHook.cpp">
+      <Filter>EptHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Main2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalMemory.cpp">
+      <Filter>PhysicalMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="PuppetMemory.cpp">
+      <Filter>PuppetMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="HideDebugSystem.cpp">
+      <Filter>HideDebugSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructForGlobalConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructForUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructForEptHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oxygenPdb\oxygenPdb.h">
+      <Filter>OxygenPdb</Filter>
+    </ClInclude>
+    <ClInclude Include="Hides.h">
+      <Filter>HideDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StructForUtilsAndHide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdlLock.h">
+      <Filter>MdlMemoryLock</Filter>
+    </ClInclude>
+    <ClInclude Include="UserHook.h">
+      <Filter>User Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem.h">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CallBack.h">
+      <Filter>CallBack</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.h">
+      <Filter>Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>ProtectProcessAndThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Hide.h">
+      <Filter>HideWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EptHook.h">
+      <Filter>EptHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalMemory.h">
+      <Filter>PhysicalMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="PuppetMemory.h">
+      <Filter>PuppetMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="HideDebugSystem.h">
+      <Filter>HideDebugSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="VmGates.asm">
+      <Filter>Asms</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="oxygenPdb\oxygenpdb.lib">
+      <Filter>OxygenPdb</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="oxygenPdb\oxygenpdb.pdb">
+      <Filter>OxygenPdb</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

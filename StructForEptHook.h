@@ -1,0 +1,81 @@
+#pragma once
+
+enum VM_CALL_REASONS
+{
+	VMCALL_TEST,
+	VMCALL_VMXOFF,
+	VMCALL_EPT_HOOK_FUNCTION_ONE_TRAMPOLINE,
+	VMCALL_EPT_UNHOOK_FUNCTION,
+	VMCALL_EPT_HOOK_FUNCTION_TWO_TRAMPOLINE,
+	VMCALL_HYPERCALL_HOOK_LSTAR,
+	VMCALL_HYPERCALL_UNHOOK_LSTAR,
+	VMCALL_INVEPT_CONTEXT,
+	VMCALL_DUMP_POOL_MANAGER,
+	VMCALL_DUMP_VMCS_STATE,
+	VMCALL_HIDE_HV_PRESENCE,
+	VMCALL_UNHIDE_HV_PRESENCE,
+	VMCALL_PING,
+	VMCALL_FLUSH_LOGS,
+	VMCALL_READ_MEMORY,
+	VMCALL_READ_MEMORY_BY_TARGET_CR3,
+	VMCALL_READ_MEMORY_BY_TARGET_CR3_AND_MMCOPYMEMORY,
+	VMCALL_WRITE_MEMORY,
+	VMCALL_WRITE_MEMORY_BY_TARGET_CR3,
+	VMCALL_WRITE_MEMORY_BY_TARGET_CR3_AND_MMMAPIOSPACE,
+	VMCALL_USER_EPT_HOOK,
+	VMCALL_USER_EPT_UNHOOK,
+	VMCALL_USER_EPT_BREAKPOINT_HOOK,
+	VMCALL_EPT_CHANGE_PAGE_NO_RW,
+	VMCALL_EPT_RECOVER_PAGE_ATTRIBUTE,
+	VMCALL_EPT_HIDE_MEMORY
+};
+
+
+typedef struct _NT_SYSCALL_NUMBERS
+{
+	SHORT NtSetInformationThread;
+	SHORT NtQueryInformationProcess;
+	SHORT NtQueryObject;
+	SHORT NtSystemDebugControl;
+	SHORT NtSetContextThread;
+	SHORT NtQuerySystemInformation;
+	SHORT NtGetContextThread;
+	SHORT NtClose;
+	SHORT NtQueryInformationThread;
+	SHORT NtCreateThreadEx;
+	SHORT NtCreateFile;
+	SHORT NtCreateProcessEx;
+	SHORT NtYieldExecution;
+	SHORT NtQuerySystemTime;
+	SHORT NtQueryPerformanceCounter;
+	SHORT NtContinue;
+	SHORT NtQueryInformationJobObject;
+	SHORT NtCreateUserProcess;
+	SHORT NtGetNextProcess;
+	SHORT NtOpenProcess;
+	SHORT NtOpenThread;
+	SHORT NtSetInformationProcess;
+	SHORT NtDebugActiveProcess;
+	SHORT NtCreateDebugObject;
+	SHORT NtRemoveProcessDebug;
+	SHORT NtWaitForDebugEvent;
+	SHORT NtDebugContinue;
+	SHORT NtReadVirtualMemory;
+	SHORT NtWriteVirtualMemory;
+	SHORT NtTerminateProcess;
+	SHORT NtTerminateThread;
+
+}NT_SYSCALL_NUMBERS;
+typedef struct _WIN32K_SYSCALL_NUMBERS
+{
+	SHORT NtUserFindWindowEx;
+	SHORT NtUserBuildHwndList;
+	SHORT NtUserQueryWindow;
+	SHORT NtUserGetForegroundWindow;
+	SHORT NtUserGetThreadState;
+	SHORT NtUserGetClassName;
+	SHORT NtUserInternalGetWindowText;
+	SHORT NtUserEnumDisplayDevices;
+	SHORT NtGdiExtTextOutW;
+
+}WIN32K_SYSCALL_NUMBERS;
